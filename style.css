@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utilizando form</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
         *{
             margin: 0%;
         }
@@ -95,31 +87,3 @@
             width: 14%;
             margin: 0%;
         }
-    </style>
-</head>
-<body>
-    
-        
-    <form action="" method="get" id="contato" class="formulario">
-        <fieldset>
-            <h2>Sign in with</h2>
-            <div class="login__face">
-                <button id="facebook" type="submit"><img class="img" src="Images_icons/face.png" alt=""> Facebook</button>
-                <button id="google" type="submit"><img class="img" src="Images_icons/google.jpg" alt=""> Google</button>
-            </div>
-
-            <label class="label" for="username">Usuário</label>
-            <input class="input" type="text" id="username" placeholder="Insira seu usuário">
-            <label class="label" for="password">Senha</label>
-            <input class="input" type="text" id="password" placeholder="Insira sua senha">
-
-            <div class="botao__login">
-                <button type="submit">Sign in</button>
-            </div>
-        </fieldset>
-
-    </form>
-  
-    
-</body>
-</html>
