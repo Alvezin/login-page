@@ -154,4 +154,19 @@
                 font-size: 17px;
             }
         }
+        @media screen and (max-width:449px){
+            .login__face button{
+                font-size: 10px;
+            }
+        
+        
+        }
+        @media screen and (max-width:397px){
+            fieldset input{
+                margin-bottom: 7vw;
+            }
+        
+        
+        }
+
 
