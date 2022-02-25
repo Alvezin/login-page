@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
-        *{
-            margin: 0%;
-        }
+        
         body{
             font-family: 'Poppins', sans-serif;
-            background-image: url(Images_icons/pexels-johannes-plenio-1103970.jpg);
-            background-repeat:no-repeat;
-            background-size: 260%;
-            background-position: 60% 10%;
-            background-size: 490%;
-
+            background-image: linear-gradient(45deg, #82868f, #023756);
         }
         fieldset label{
             display: block;
@@ -162,12 +155,7 @@
             }
         }
         
-        @media screen and (max-width:500px){
-            body{
-                background-image: url(Images_icons/pexels-johannes-plenio-1103970.jpg);
-                background-size: 890%;
-            }
-        }
+        
         @media screen and (max-width:449px){
             .login__face button{
                 font-size: 10px;
