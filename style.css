@@ -30,6 +30,8 @@
         }
         h2{
             text-align: center;
+            font-size: 1.5rem;
+
         }
         .login__face{
             display: flex;
@@ -55,11 +57,15 @@
             font-size: large;
             font-family: 'Poppins', sans-serif;
         }
+        .input:hover{
+            background-color: rgb(218, 215, 215);
+            transition: .5s;
+
+        }
         .input:focus{
-            background-color: rgb(175, 172, 172);
+            background-color: rgb(184, 181, 181);
             transition: .5s;
             border: 1px solid rgb(95, 95, 95);
-
         }
         .label{
             margin-top: 20px;
@@ -111,3 +117,41 @@
             width: 14%;
             margin: 0%;
         }
+
+        @media screen and (max-width:606px) {
+            fieldset{
+                width: 60vw;
+                height: 60vw;
+                padding: 8vw;
+            }
+            .login__face button{
+                width: 20vw;
+                height: 30px;}
+            .input{
+                height: 7vw;
+            }
+            .label{
+                margin-top: 3vw;
+            }
+            .botao__login button{
+                height: 9vw;
+            }
+            html{
+                font-size: 14px;
+            }
+            .login__face{
+                margin-top: 5vw;
+            }
+        }
+        @media screen and (max-width:511px){
+            fieldset{
+                height: 90vw;
+            }   
+            fieldset input{
+                margin-bottom: 10vw;
+            }
+            html{
+                font-size: 17px;
+            }
+        }
+
