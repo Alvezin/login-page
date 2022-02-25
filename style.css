@@ -6,8 +6,8 @@
             font-family: 'Poppins', sans-serif;
             background-image: url(Images_icons/pexels-johannes-plenio-1103970.jpg);
             background-repeat:no-repeat;
-            background-size: 100%;
-            background-position: 60% 0%;
+            background-size: 260%;
+            background-position: 60% 10%;
         }
         fieldset label{
             display: block;
@@ -55,6 +55,12 @@
             font-size: large;
             font-family: 'Poppins', sans-serif;
         }
+        .input:focus{
+            background-color: rgb(175, 172, 172);
+            transition: .5s;
+            border: 1px solid rgb(95, 95, 95);
+
+        }
         .label{
             margin-top: 20px;
         }
@@ -68,13 +74,24 @@
             font-family: 'Poppins', sans-serif;
             border-radius: 10px;
             border: 1px solid #18181882;
+            cursor: pointer;
+        }
+        .botao__login button:hover {
+            background-color: #1d1d1d;
+            transition: .5s;
         }
         #facebook{
             background-color: #3563A1;
             text-align: right;
             border-radius: 7px;
             text-align: center;
-        
+            cursor: pointer;
+
+        }
+        #facebook:hover{
+            background-color: #244570;
+            transition: .4s;
+
         }
         #google{
             color: black;
@@ -82,6 +99,13 @@
             border-radius: 7px;
             text-align: center;
             background-color: white;
+            cursor: pointer;
+
+        }
+        #google:hover{
+            background-color: rgb(226, 226, 226);
+            transition: .4s;
+
         }
         .img{
             width: 14%;
