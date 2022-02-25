@@ -165,7 +165,22 @@
             fieldset input{
                 margin-bottom: 7vw;
             }
-        
+        }
+        @media screen and (max-width:349px){
+            .login__face button{
+                font-size: 8px;
+            }
+            h2{
+                font-size: 1.2rem;
+            }
+        }
+        @media screen and (max-width:272px){
+            .login__face button{
+                font-size: 7px;
+            }
+            fieldset input{
+                margin-bottom: 5vw;
+            }
         
         }
 
