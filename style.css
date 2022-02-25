@@ -8,6 +8,8 @@
             background-repeat:no-repeat;
             background-size: 260%;
             background-position: 60% 10%;
+            background-size: 490%;
+
         }
         fieldset label{
             display: block;
@@ -143,6 +145,11 @@
                 margin-top: 5vw;
             }
         }
+        @media screen and (max-width:518px){
+            body{
+                background-position: 100% 1%;
+            }
+        }
         @media screen and (max-width:511px){
             fieldset{
                 height: 90vw;
@@ -154,6 +161,13 @@
                 font-size: 17px;
             }
         }
+        /*
+        @media screen and (max-width:500px){
+            body{
+                background-image: url(Images_icons/pexels-johannes-plenio-1103970.jpg);
+                background-size: 500%;
+            }
+        }*/
         @media screen and (max-width:449px){
             .login__face button{
                 font-size: 10px;
