@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+        *{
+            margin: 0%;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-image: url(Images_icons/pexels-johannes-plenio-1103970.jpg);
+            background-repeat:no-repeat;
+            background-size: 100%;
+            background-position: 60% 0%;
+        }
+        fieldset label{
+            display: block;
+        }
+        fieldset input{
+            display: block;
+        }
+        .formulario{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        fieldset{
+            width: 350px;
+            height: 350px;
+            padding: 50px;
+            background-color: white;
+            border: 1px solid rgb(181, 176, 176);
+        }
+        h2{
+            text-align: center;
+        }
+        .login__face{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 15%;
+            margin-top: 30px;
+        }
+        .login__face button{
+            width: 120px;
+            height: 35px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            border: 1px solid lightgray;
+
+        }
+        .input{
+            width: 100%;
+            background-color: rgb(240, 236, 236);
+            height: 40px;
+            border: 1px solid rgb(162, 162, 162);
+            border-radius: 10px;
+            outline: none;
+            font-size: large;
+            font-family: 'Poppins', sans-serif;
+        }
+        .label{
+            margin-top: 20px;
+        }
+        .botao__login button{
+            width: 100%;
+            height: 50px;
+            margin-top: 18px;
+            background-color: #313131;
+            color: white;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 10px;
+            border: 1px solid #18181882;
+        }
+        #facebook{
+            background-color: #3563A1;
+            text-align: right;
+            border-radius: 7px;
+            text-align: center;
+        
+        }
+        #google{
+            color: black;
+            text-align: right;
+            border-radius: 7px;
+            text-align: center;
+            background-color: white;
+        }
+        .img{
+            width: 14%;
+            margin: 0%;
+        }
+    </style>
+</head>
+<body>
+    
+        
+    <form action="" method="get" id="contato" class="formulario">
+        <fieldset>
+            <h2>Sign in with</h2>
+            <div class="login__face">
+                <button id="facebook" type="submit"><img class="img" src="Images_icons/face.png" alt=""> Facebook</button>
+                <button id="google" type="submit"><img class="img" src="Images_icons/google.jpg" alt=""> Google</button>
+            </div>
+
+            <label class="label" for="username">Usuário</label>
+            <input class="input" type="text" id="username" placeholder="Insira seu usuário">
+            <label class="label" for="password">Senha</label>
+            <input class="input" type="text" id="password" placeholder="Insira sua senha">
+
+            <div class="botao__login">
+                <button type="submit">Sign in</button>
+            </div>
+        </fieldset>
+
+    </form>
+  
+    
+</body>
+</html>
